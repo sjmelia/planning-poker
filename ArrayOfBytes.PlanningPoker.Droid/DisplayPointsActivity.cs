@@ -6,10 +6,12 @@ namespace ArrayOfBytes.PlanningPoker.Droid
     using GalaSoft.MvvmLight.Views;
     using ViewModels;
 
-    [Activity(Label = "DisplayPointsActivity")]
+    [Activity(Label = "DisplayPointsActivity", Theme = "@android:style/Theme.Holo.Light.NoActionBar.Fullscreen")]
     public class DisplayPointsActivity : ActivityBase
     {
         private PointsViewModel viewmodel;
+
+        private Toast toast;
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -29,8 +31,18 @@ namespace ArrayOfBytes.PlanningPoker.Droid
 
             textView.Click += (sender, e) => nav.GoBack();
 
-            var toast = Toast.MakeText(this, Resource.String.PressToReturn, ToastLength.Long);
+            this.toast = Toast.MakeText(this, Resource.String.PressToReturn, ToastLength.Long);
             toast.Show();
+        }
+
+        protected override void OnStop()
+        {
+            base.OnStop();
+
+            if (this.toast != null)
+            {
+                this.toast.Cancel();
+            }
         }
     }
 }
