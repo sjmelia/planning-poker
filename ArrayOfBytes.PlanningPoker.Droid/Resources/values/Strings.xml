@@ -2,4 +2,6 @@
 <resources>
   <string name="ApplicationName">Planning Poker Cards</string>
   <string name="PressToReturn">Press the screen to return</string>
+  <string name="action_select_image">Select Image</string>
+  <string name="action_clear_image">Clear Image</string>
 </resources>

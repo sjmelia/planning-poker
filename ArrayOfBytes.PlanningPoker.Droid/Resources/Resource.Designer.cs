@@ -47,7 +47,13 @@ namespace ArrayOfBytes.PlanningPoker.Droid
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int ic_clear_black_24dp = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int ic_image_black_24dp = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int Icon = 2130837506;
 			
 			static Drawable()
 			{
@@ -62,11 +68,20 @@ namespace ArrayOfBytes.PlanningPoker.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int PointsTextView = 2131034112;
+			// aapt resource value: 0x7f060001
+			public const int PointsImageView = 2131099649;
 			
-			// aapt resource value: 0x7f050001
-			public const int SelectPointsList = 2131034113;
+			// aapt resource value: 0x7f060000
+			public const int PointsTextView = 2131099648;
+			
+			// aapt resource value: 0x7f060002
+			public const int SelectPointsList = 2131099650;
+			
+			// aapt resource value: 0x7f060004
+			public const int action_clear_image = 2131099652;
+			
+			// aapt resource value: 0x7f060003
+			public const int action_select_image = 2131099651;
 			
 			static Id()
 			{
@@ -97,6 +112,22 @@ namespace ArrayOfBytes.PlanningPoker.Droid
 			}
 		}
 		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int DisplayPointsMenu = 2131034112;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
+			{
+			}
+		}
+		
 		public partial class String
 		{
 			
@@ -108,6 +139,12 @@ namespace ArrayOfBytes.PlanningPoker.Droid
 			
 			// aapt resource value: 0x7f040002
 			public const int PressToReturn = 2130968578;
+			
+			// aapt resource value: 0x7f040004
+			public const int action_clear_image = 2130968580;
+			
+			// aapt resource value: 0x7f040003
+			public const int action_select_image = 2130968579;
 			
 			static String()
 			{

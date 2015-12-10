@@ -1,12 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" 
-          package="com.ArrayOfBytes.PlanningPoker.Droid" 
-          android:versionCode="1" 
-          android:versionName="1.0" 
-          android:installLocation="auto">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.ArrayOfBytes.PlanningPoker.Droid" android:versionCode="2" android:versionName="1.1" android:installLocation="auto">
 	<uses-sdk android:targetSdkVersion="14" />
-  <!-- https://developer.xamarin.com/guides/android/user_interface/material_theme/ -->
-	<application android:label="Planning Poker Cards" 
-               android:icon="@drawable/Icon"
-               android:theme="@android:style/Theme.Holo.Light"></application>
+	<!-- https://developer.xamarin.com/guides/android/user_interface/material_theme/ -->
+	<application android:label="Planning Poker Cards" android:icon="@drawable/Icon" android:theme="@android:style/Theme.Holo.Light"></application>
 </manifest>

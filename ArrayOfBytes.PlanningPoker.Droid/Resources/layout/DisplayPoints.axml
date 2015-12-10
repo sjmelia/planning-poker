@@ -14,4 +14,10 @@
     android:layout_margin="5dp"
     android:gravity="center"
     />
+  <ImageView
+    android:id="@+id/PointsImageView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scaleType="fitCenter"
+    />
 </LinearLayout>
